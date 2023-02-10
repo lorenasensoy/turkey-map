@@ -19,7 +19,7 @@
 <body>
 
   <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title">Where I've Been</div>
+  <div id="map-title">Turkey Earthquate 2023 </div>
   <div id="map"></div>
 
   <!-- Create the interactive map content with JavaScript (.js) -->
@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [43.769153016851455, 11.249892303605147], // Florence, Italy
+    center: [37.7342° N, 36.8194° E ], // Kahramanmaras, Turkey
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
@@ -40,8 +40,8 @@
 }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([43.769153016851455, 11.249892303605147]).addTo(map) // Florence, Italy
-  .bindPopup("Florence, Italy"); // EDIT Florence, Italy
+  L.marker([37.7342° N , 36.8194° E ]).addTo(map) // Kahramanmaras, Turkey
+  .bindPopup("Kahramanmaras, Turkey"); // EDIT Kahramanmaras, Turkey
 
   </script>
 </body>
